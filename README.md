@@ -1,12 +1,15 @@
 # code-ios-swift
 
 # Danh mục
-
+* [Overview](#overview)
 * [Bài 1: Biến](#Bài-1:-Biến)
 * [Bài 2: Các toán tử cơ bản trong Swift](#Bài-2:-Các-toán-tử-cơ-bản-trong-Swift)
 * [Bài 3: Làm việc với String và character trong Swift-phần 1](#Bài-3:-Làm-việc-với-String-và-character-trong-Swift-phần-1)
 * [Bài 4: Dữ liệu kiểu mảng](#Bài-4:-Dữ-liệu-kiểu-mảng)
 * [Bài 5: Kiểu dữ liệu tập hợp, kiểu Set](#Bài-5:-Kiểu-dữ-liệu-tập-hợp,-kiểu-Set)
+* [Bài 6: Kiểu dữ liệu Dictionary](#Bài-6:-Kiểu-dữ-liệu-Dictionary)
+* [Bài 7: Điều khiển luồng dữ liệu](#Bài-7:-Điều-khiển-luồng-dữ-liệu)
+ 
 
 ## Bài 1: Biến
 - 1:
@@ -23,6 +26,7 @@
 ```swift
 	var = "variable" khai báo biến
 ```
+
 *example*
 ```swift
 	var abc = "abc", name = "Doan van Du", gmail = = "123@gmail.com"
@@ -267,7 +271,7 @@ https://unicode-table.com/en/#000C
 	fruits.isDisjoint(with: animals) // khác nhau hoàn toàn
 ```
 
-## Bài 6: Kiểu dữ liệu Dictionary
+## Bài 6: Kiểu dữ liệu Dictionary 
 
 ```swift
 	var user:[String: String] = ["name": "hoang", "email": "sunlight4d@gmail.com"]
@@ -401,6 +405,6 @@ https://unicode-table.com/en/#000C
 ```
 
 ## Bài 8: 
-
+## Overview
 
 
