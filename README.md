@@ -2,8 +2,8 @@
 
 # Danh mục
 
-* [Bài 1](#Bài-1:-Biến)
-* [Bài 2](#Bài-2:-Các-toán-tử-cơ-bản-trong-Swift)
+* [Bài 1](#bài-1:-biến)
+* [Bài 2](#bài-2:-các-toán-tử-cơ-bản-trong-swift)
 
 ## Bài 1: Biến
 - 1:
@@ -15,7 +15,7 @@
 	let pi =. 2.456
 	pi = 346 // error
 ```
--2:
+- 2:
 
 ```sh
 	var = "variable" khai báo biến
@@ -25,17 +25,17 @@
 	var abc = "abc", name = "Doan van Du", gmail = = "123@gmail.com"
 	var x, y, z : Double
 ```
--3: typealias: Bí danh
+- 3: typealias: Bí danh
 ```sh
  	typealias BigNumber = Double
  	let numberOfAnts: BigNumber = 1000_000_000 // 1000 000 000
  ```
- -4: nil == null
+ - 4: nil == null
  ```sh 
  	var numberOfAnts : Int? = 10. // thêm dấu ? để sủ dụng gán nil
  	numberOfAnts = nil
  ```
--5 : assert (dk, thông báo lỗi nếu đk ko đúng) , precondition (dk, thông báo lỗi nếu đk ko đúng) ==> break or return
+- 5 : assert (dk, thông báo lỗi nếu đk ko đúng) , precondition (dk, thông báo lỗi nếu đk ko đúng) ==> break or return
 ```sh
 	var numberOfAnts = -10
 	assert (numberOfAnts >=0, "đầu vào phải lớn hơn hoặc bằng 0")
@@ -45,29 +45,29 @@
 ## Bài 2: Các toán tử cơ bản trong Swift
 
 
--1: Unary operator
+- 1: Unary operator
 ```sh
 	let isHero:Bool = true
 	let check = !isHero // Unary operator : false
 ```
 
--2: Tuple: Danh sách các biến
+- 2: Tuple: Danh sách các biến
 ```sh
 	let (width, height) = (800, 600)
 ```
--3: So sánh 2 tuple:
+- 3: So sánh 2 tuple:
 ```sh
 	(3, "cat") == (3, "cat") // true
 ```
 
--4: for:
+- 4: for:
 ```sh
 	for index in 1..<5 {
     print("index = \(index)")
    }
 ```
 
--5: if ... else
+- 5: if ... else
 ```sh
 	if (5 < 1 || 3 < 2) {
     	print("true !")
@@ -75,12 +75,12 @@
     	print("false")
 	}
 ```
--6: range ...
+- 6: range ...
 ```sh
   let range = ...7 // tất cả những số nhỏ hơn 7
   range.contains(6) // true
 ```
--7: array:
+- 7: array:
 
 ```sh
 	let animals = ["cat", "dog", "tiger", "dinosaur"]
