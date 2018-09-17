@@ -311,3 +311,96 @@ https://unicode-table.com/en/#000C
 ```
 
 
+## Bài 7: Điều khiển luồng dữ liệu
+
+- 1: for
+
+```swift
+	for index in 0..<10 {
+	//    print("index = \(index)")
+	//    print("hello !")
+	}
+
+// nếu index ko sử dụng
+
+	for _ in 0..<10 {  // 0-9
+	//    print("index = \(index)")
+	//    print("hello !")
+	}
+
+	for index in stride(from: 1, to: 12, by: 1) {  // buy: bước đi từ 1 -12 
+	//    print("index =\(index)")
+	}
+```
+- 2: while
+
+```swift
+	// cú pháp 1
+
+	var startValue = 0
+
+	while startValue < 100 {
+	    print("startValue = \(startValue)")
+	    startValue = startValue + 1
+	    if(startValue ==5){
+	    	continue // tiếp tục vòng lặp mới
+	    	break // thoát hẳn ra khoỉ vòng lặp
+	    }
+	   print("startValue = \(startValue)") 
+	}
+
+
+	// cú pháp 2
+
+	repeat {
+	 	print("startValue = \(startValue)")
+	 	startValue = startValue + 1
+	 } while startValue < 100
+```
+- 3: switch...case
+
+```swift
+
+	// th1
+
+	 var yourPoint = -2
+	 var estimation:String
+	 
+	 switch yourPoint {
+	 	case 0..<2:
+	 		estimation = "very bad"
+	 	case 2..<5:
+	 		estimation = "under average"
+	 	case 5..<7:
+	 		estimation = "average"
+	 	case 7..<9:
+	 		estimation = "Good"
+	 	case 9...10:
+	 		estimation = "Exellent"
+	 	default:
+	 		estimation = "Not a valid value"
+	 }
+	 
+	 print("estimation = \(estimation)")
+
+	 //th2
+
+	 let starWarCharacter = "Nguyen Duc Hoang"
+	switch starWarCharacter {
+		case "Yoda", "Obiwan-Kenoby", "Mace Windu":
+	    	print("\(starWarCharacter) is a Jedi")
+		case "Darth Sidious", "Anakin Skywalker", "Darth Maul":
+	    	print("\(starWarCharacter) is in Dark Side of the Force")
+		case "Nguyen Duc Hoang":
+	    	print("\(starWarCharacter) is a freelancer")
+	    	fallthrough  // đi tiếp, ko break
+		default:
+	    	print("\(starWarCharacter) is not a Star War's character")
+	}
+
+```
+
+## Bài 8: 
+
+
+
