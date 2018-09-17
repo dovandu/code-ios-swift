@@ -2,7 +2,7 @@
 
 # Danh mục
 
-* [Bài 1](#bài-1:-biến)
+* [Bài 1](#bai-1:-bien)
 * [Bài 2](#bài-2:-các-toán-tử-cơ-bản-trong-swift)
 
 ## Bài 1: Biến
