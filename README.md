@@ -2,10 +2,10 @@
 
 # Danh mục
 
-* [Bai 1: Bien](#Bai-1:-Bien)
-* [Bài 2: Các toán tử cơ bản trong Swift](#bài-2:-các-toán-tử-cơ-bản-trong-swift)
+* [Bài 1: Biến](#Bài-1:-Biến)
+* [Bài 2: Các toán tử cơ bản trong Swift](#Bài-2:-Các-toán-tử-cơ-bản-trong-Swift)
 
-## Bai 1: Bien
+## Bài 1: Biến
 - 1:
 ```swift
 	let = "constant"
@@ -43,7 +43,6 @@
 	var x1 = 100 // not run with precondition
 ```
 ## Bài 2: Các toán tử cơ bản trong Swift
-
 
 - 1: Unary operator
 ```swift
