@@ -1,8 +1,8 @@
 # code-ios-swift
 
 # Danh mục
-* [Overview](#overview)
-* [Bài 1: Biến](#Bài-1:-Biến)
+
+* [Bài1](#bài1)
 * [Bài 2: Các toán tử cơ bản trong Swift](#Bài-2:-Các-toán-tử-cơ-bản-trong-Swift)
 * [Bài 3: Làm việc với String và character trong Swift-phần 1](#Bài-3:-Làm-việc-với-String-và-character-trong-Swift-phần-1)
 * [Bài 4: Dữ liệu kiểu mảng](#Bài-4:-Dữ-liệu-kiểu-mảng)
@@ -11,7 +11,7 @@
 * [Bài 7: Điều khiển luồng dữ liệu](#Bài-7:-Điều-khiển-luồng-dữ-liệu)
  
 
-## Bài 1: Biến
+## Bài1
 - 1:
 ```swift
 	let = "constant"
@@ -405,6 +405,5 @@ https://unicode-table.com/en/#000C
 ```
 
 ## Bài 8: 
-## Overview
 
 
