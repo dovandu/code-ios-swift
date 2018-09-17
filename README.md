@@ -3,7 +3,7 @@
 # Danh mục
 
 * [Bài 1: Biến](#bài1)
-* [Bài 2: Các toán tử cơ bản trong Swift](#Bài-2:-Các-toán-tử-cơ-bản-trong-Swift)
+* [Bài 2: Các toán tử cơ bản trong Swift](#Bài2)
 * [Bài 3: Làm việc với String và character trong Swift-phần 1](#Bài-3:-Làm-việc-với-String-và-character-trong-Swift-phần-1)
 * [Bài 4: Dữ liệu kiểu mảng](#Bài-4:-Dữ-liệu-kiểu-mảng)
 * [Bài 5: Kiểu dữ liệu tập hợp, kiểu Set](#Bài-5:-Kiểu-dữ-liệu-tập-hợp,-kiểu-Set)
@@ -11,7 +11,9 @@
 * [Bài 7: Điều khiển luồng dữ liệu](#Bài-7:-Điều-khiển-luồng-dữ-liệu)
  
 
-## Bài1 : Biến 
+## Bài1
+### Bài 1: Các kiểu biến
+
 - 1:
 ```swift
 	let = "constant"
@@ -49,7 +51,8 @@
 	precondition(numberOfAnts >0, "đầu vào phải lớn hơn hoặc bằng 0")
 	var x1 = 100 // not run with precondition
 ```
-## Bài 2: Các toán tử cơ bản trong Swift
+## Bài2
+### Bài 2: Các toán tử cơ bản trong Swift
 
 - 1: Unary operator
 ```swift
