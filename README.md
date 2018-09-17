@@ -4,7 +4,9 @@
 
 * [Bài 1: Biến](#Bài-1:-Biến)
 * [Bài 2: Các toán tử cơ bản trong Swift](#Bài-2:-Các-toán-tử-cơ-bản-trong-Swift)
-* [## Bài 3: Làm việc với String và character trong Swift-phần 1](###-Bài-3:-Làm-việc-với-String-và-character-trong-Swift-phần-1)
+* [Bài 3: Làm việc với String và character trong Swift-phần 1](#Bài-3:-Làm-việc-với-String-và-character-trong-Swift-phần-1)
+* [Bài 4: Dữ liệu kiểu mảng](#Bài-4:-Dữ-liệu-kiểu-mảng)
+* [Bài 5: Kiểu dữ liệu tập hợp, kiểu Set](#Bài-5:-Kiểu-dữ-liệu-tập-hợp,-kiểu-Set)
 
 ## Bài 1: Biến
 - 1:
@@ -265,5 +267,47 @@ https://unicode-table.com/en/#000C
 	fruits.isDisjoint(with: animals) // khác nhau hoàn toàn
 ```
 
+## Bài 6: Kiểu dữ liệu Dictionary
+
+```swift
+	var user:[String: String] = ["name": "hoang", "email": "sunlight4d@gmail.com"]
+	var myNumbers:[Int: String] = [10: "ten", 123: "one hundred and twelve"]
+	print(myNumbers[124]) // lấy value theo key
+
+	print("user dictionary has \(user.count) keys")  // đểm có tổng số bao nhiều key
+
+	user["email"] = "hoang123@gmail.com" // c1: gán giá trị mới
+
+	if let oldEmail = user.updateValue("hoang1234@gmail.com", forKey: "email") {
+	    print("old email = \(oldEmail)")  // c2: gán giá trị mới
+	}
+
+	user = [:] // xoá hết dữ liệu
+
+	if user.isEmpty {
+	    print("user dictionary is empty")
+	} else {
+	    print("user dictionary is not empty")
+	}
+
+	print(user["email"])
+
+	for (myKey, myValue) in user {  // duyệt theo key và value
+	    print("key = \(myKey), value = \(myValue)")
+	}
+
+	for eachKey in user.keys {  // duyệt theo key
+	    print("each key = \(eachKey)")
+	}
+	for eachValue in user.values {  // duyệt theo value
+	    print("each value = \(eachValue)")
+	}
+
+	let allKeys = [String](user.keys)  // mảng chứa key thôi
+	print("all keys = \(allKeys)")
+
+	let allValues = [String](user.values)  // mảng chứa value thôi
+	print("all values = \(allValues)")
+```
 
 
