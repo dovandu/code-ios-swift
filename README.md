@@ -4,6 +4,7 @@
 
 * [Bài 1: Biến](#Bài-1:-Biến)
 * [Bài 2: Các toán tử cơ bản trong Swift](#Bài-2:-Các-toán-tử-cơ-bản-trong-Swift)
+* [## Bài 3: Làm việc với String và character trong Swift-phần 1](###-Bài-3:-Làm-việc-với-String-và-character-trong-Swift-phần-1)
 
 ## Bài 1: Biến
 - 1:
@@ -184,6 +185,84 @@ https://unicode-table.com/en/#000C
 	stringWithPostfix.hasSuffix("Star War") // chứa ký tự cuối cùng
 	stringWithPostfix.uppercased().hasSuffix("STAR WAR") // chứa ký tự vị trí bất kỳ ko phân biệt chưa hoa hay thường
 
+```
+
+## Bài 4: Dữ liệu kiểu mảng
+
+```swift
+	var someDoubles = [Double]() // khởi tạo mảng rỗng
+	someDoubles.append(100.02)  // thêm phần tử
+	someDoubles.append(3.2)
+	print("number of elements = \(someDoubles.count)") // count: số lượng phần tử
+
+	var tenIntegers = Array(repeating: 5, count: 10) // tạo ra mảng có 10 số 5
+
+	var result1 = tenIntegers + tenIntegers  // cộng 2 mảng với nhau
+
+
+	var smartPhones = ["iphone", "samsum galaxy", "htc one"]
+	smartPhones += ["nokia", "blackberry"]  // cộng mảng
+	smartPhones.insert("Xaomi", at: 1) //chèn thêm phần tử vào vị trí thứ nhất
+	smartPhones.remove(at: 1)  // xoá bỏ phần tử thứ nhất
+
+
+	for smartPhone in smartPhones {
+    print("each smartphone = \(smartPhone)") // duyệt từng phần tử mảng
+	}
+
+	for (index, value) in smartPhones.enumerated() {
+	    print("index = \(index), value = \(value)") // duyệt từng phần tử và vị trí của mảng
+	}
+
+```
+
+## Bài 5: Kiểu dữ liệu tập hợp, kiểu Set
+
+- 1: 
+
+```swift
+	var starWarCharacters: Set<String> = ["Anakin Skywalker", "Luke", "Yoda"]
+
+	if(starWarCharacters.isEmpty){ // check empty
+	    print("No characters")
+	} else {
+	    print("There are \(starWarCharacters.count) characters"). // số phần tử
+	}
+	starWarCharacters.insert("Leia")  // thêm phần tử
+	starWarCharacters.remove("Luke")  // xoá phần tử
+	print(starWarCharacters)
+
+	if starWarCharacters.contains("Finn") { // kiểm tra có hay ko phần tử
+	    print("List contains Finn")
+	} else {
+	    print("List does not contain Finn")
+	}
+
+	for starWarCharacter in starWarCharacters { // duyệt phần tử
+	    print("starWarCharacter = \(starWarCharacter)")
+	}
+```
+- 2: Giao, hợp,  hiệu, ... trong tập hợp
+
+```swift
+	let set1: Set = [1, 2,  3, 4, 5,  6,  7]
+	let set2: Set = [9, 10, 3, 4, 11, 12, 13]
+
+	let resultSet = set1.intersection(set2) // lấy giao giữa 2 mảng
+	let resultSet = set1.union(set2)  // hợp giữa 2 phần tử
+	let resultSet = set1.subtracting(set2)  // hiệu của 2 tập hợp
+	let resultSet = set1.symmetricDifference(set2)  // lấy những phần tử có trong 1 mà ko có trong 2
+```
+- 3:
+
+```swift
+	let fruits:Set = ["🍎","🥝","🍆","🍇","🍒"]
+	let fruitAndDrinks:Set = ["🍎","🥝","🍆","🍇","🍒", "🍺","☕️","🍷"]
+	let animals: Set = ["🐇","🐊","🐴","🐓"]
+	fruitAndDrinks.isSuperset(of: fruits) // kiểm tra có phải là tập hợp cha ko
+	fruits.isSubset(of: fruitAndDrinks)  // kiểm tra có phải là tập hợp con ko
+
+	fruits.isDisjoint(with: animals) // khác nhau hoàn toàn
 ```
 
 
