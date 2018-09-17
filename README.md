@@ -3,7 +3,7 @@
 # Danh mục
 
 * [Bài 1: Biến](#bài1)
-* [Bài 2: Các toán tử cơ bản trong Swift](#Bài2)
+* [Bài 2: Các toán tử cơ bản trong Swift](#bài2)
 * [Bài 3: Làm việc với String và character trong Swift-phần 1](#Bài-3:-Làm-việc-với-String-và-character-trong-Swift-phần-1)
 * [Bài 4: Dữ liệu kiểu mảng](#Bài-4:-Dữ-liệu-kiểu-mảng)
 * [Bài 5: Kiểu dữ liệu tập hợp, kiểu Set](#Bài-5:-Kiểu-dữ-liệu-tập-hợp,-kiểu-Set)
