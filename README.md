@@ -89,9 +89,102 @@
 	}
 
 ```
+## Bài 3: Làm việc với String và character trong Swift-phần 1
 
+- 1: String chứa nhiều dòng và nhiều ký tự đặc biệt
 
+```swift
+	let welcome = """
+  		This is my tutorial channel.
+		"How long have you done this ?". "4 months"
+		This is a 3 quotes \"\"\" // thêm 3 dấu nháy
+	"""
+```
 
+- 2: Khởi tạo và kiểm tra chuỗ rỗng:
+
+```swift
+
+	let aBlankString = String()
+	print(aBlankString)
+	if (aBlankString.isEmpty == true) {
+	    print("It is empty")
+	}
+```
+- 3: Check từng ký tự:
+
+```swift
+	for eachCharacter in aMutableString {
+	    print("character:           \(eachCharacter)")
+	}
+
+	// hoặc
+
+	for index in welcomeString.indices {
+    print("eachCharacter = \(welcomeString[index])")
+	}
+```
+- 4: append: công thêm ký tự vào cuối chuỗi
+
+```swift
+	let dollarMark: Character = "$"
+	aMutableString.append(dollarMark)
+	print(aMutableString)
+```
+- 5: 
+```swift
+	let width = 500
+	let squareArea = "The square area is \(width * width)"
+	print(squareArea) // string được tạo ra có tính toán
+```
+- 6: Sử dụng emoji: 
+
+https://unicode-table.com/en/#000C
+
+```swift
+	let ampersandMark = "\u{2602}"
+	print(ampersandMark)
+```
+ - 7: Lấy ký tự trong chuỗi
+
+ ```swift
+ 	var welcomeString = "Hello World!"
+	print(welcomeString[welcomeString.index(welcomeString.startIndex, offsetBy: 4)])
+```
+
+- 8: Thêm ký tự vào 1 vị trí nào đó
+
+```swift
+	welcomeString.insert("A", at: welcomeString.endIndex)
+
+	// chèn vào tại vị trí trước vị trí cuối cùng
+
+	welcomeString.insert(contentsOf: "AAAA", at: welcomeString.index(before: welcomeString.endIndex))
+	print(welcomeString)
+```
+
+- 9: So sánh 2 string
+
+```swift
+	let myLove1 = "I love you"
+	let myLove2 = "I love you"
+
+	if myLove1 == myLove2 {
+	    print("Content are equal")
+	}
+```
+
+- 10 check dk:
+
+```swift
+	let stringWithPrefix = "mr Hoang makes this video"
+	stringWithPrefix.hasPrefix("mr Hoang1") // chứa ký tự đầu tiên
+
+	let stringWithPostfix = "mr Hoang likes StAr War"
+	stringWithPostfix.hasSuffix("Star War") // chứa ký tự cuối cùng
+	stringWithPostfix.uppercased().hasSuffix("STAR WAR") // chứa ký tự vị trí bất kỳ ko phân biệt chưa hoa hay thường
+
+```
 
 
 
