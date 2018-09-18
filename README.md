@@ -1745,4 +1745,5 @@ https://unicode-table.com/en/#000C
 ## Bài27
 ### Bài 27: Access control
 
-https://github.com/sunlight3d/Swift4Tutorial/tree/master/Swift%204%20tutorial-28-Access%20control
+- Video : https://www.youtube.com/watch?v=PuRgMsRbuB4&index=28&list=PLWBrqglnjNl2HTSAB93I2q08tP0S5oZP1
+- Source: https://github.com/sunlight3d/Swift4Tutorial/tree/master/Swift%204%20tutorial-28-Access%20control
