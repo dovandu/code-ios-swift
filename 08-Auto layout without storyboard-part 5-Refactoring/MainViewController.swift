@@ -1,35 +1,11 @@
-# Bai 1: Auto layout các StackView bằng code - không dùng Storyboard
+//
+//  MainViewController.swift
+//  StackViewExample
+//
+//  Created by Nguyen Duc Hoang on 7/20/17.
+//  Copyright © 2017 Nguyen Duc Hoang. All rights reserved.
+//
 
-```sh
-//  AppDelegate.swift
-```
-```swift
-import UIKit
-
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
-    
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        let mainViewController = MainViewController()
-        let navigationController = UINavigationController(rootViewController: mainViewController)
-        navigationController.isNavigationBarHidden = true
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = navigationController
-        window?.makeKeyAndVisible()
-        return true
-    }
-    //...
-}
-```
-
-```sh
-//MainViewController.swift
-```
-
-```swift
 import UIKit
 
 class MainViewController: UIViewController {
@@ -191,4 +167,5 @@ class MainViewController: UIViewController {
     }
     
 }
-```
+
+
