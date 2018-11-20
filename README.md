@@ -20,5 +20,5 @@ https://github.com/dovandu/code-ios-swift/blob/master/swift4_basic.md
 - Equal Spacing: các subview sẽ giữ nguyên kích thước nhưng cách nhau với 1 khoảng cách bằng nhau.
 - Equal Centering: đảm bảo center của mỗi subview sẽ có khoảng cách bằng nhau.
 
-spacing: Chi đều các view con 1 khoảng
+spacing: Chia đều các view con 1 khoảng
 ```
