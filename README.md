@@ -4,6 +4,7 @@
 https://github.com/dovandu/code-ios-swift/blob/master/swift4_basic.md
 
 ## 1: UIStackView
+- addArrangedSubview: addview
 - oritation: horizontal và vertical
 - alignment, distribution, và spacing : căn các view trong
 ```sh
