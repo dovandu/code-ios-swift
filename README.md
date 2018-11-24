@@ -24,7 +24,7 @@ https://github.com/dovandu/code-ios-swift/blob/master/swift4_basic.md
 spacing: Chia đều các view con 1 khoảng
 ```
 
-## Core Graphics Tutorial : https://viblo.asia/p/core-graphics-tutorial-part-1-djeZ1gJ85Wz
+## 2.Core Graphics Tutorial : https://viblo.asia/p/core-graphics-tutorial-part-1-djeZ1gJ85Wz
 ```sh 
 
 1.1 CGPoint
