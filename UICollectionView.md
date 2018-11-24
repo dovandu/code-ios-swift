@@ -56,6 +56,7 @@ class MainViewController: UIViewController,
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath)
         cell.backgroundColor = indexPath.row % 2 == 0 ? .cyan: .orange
         cell.selectedBackgroundView = UIView()
+        // click -> màu đỏ
         cell.selectedBackgroundView?.backgroundColor = .red
         return cell
     }
