@@ -23,3 +23,23 @@ https://github.com/dovandu/code-ios-swift/blob/master/swift4_basic.md
 
 spacing: Chia đều các view con 1 khoảng
 ```
+
+## Core Graphics Tutorial : https://viblo.asia/p/core-graphics-tutorial-part-1-djeZ1gJ85Wz
+```sh 
+
+1.1 CGPoint
+1.2 CGSize
+1.3 CGRect
+1.4 Point vs Pixel
+2. CGContext
+2.1 CGPath
+3. 1 số hàm vẽ cơ bản của CGContext
+3.1 CGContextSetLineCap
+3.2 CGContextSetLineWidth
+3.3 CGContextSetStrokeColorWithColor
+3.4 Vẽ đường thẳng
+3.5 Vẽ hình chữ nhật (hình vuông)
+3.6 Vẽ hình eclipse
+3.7 Vẽ hình tròn
+
+```
