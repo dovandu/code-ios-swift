@@ -1,4 +1,20 @@
+
 ```swift
+//AppDelegate.swift
+ var window: UIWindow?
+
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        let mainViewController = MainViewController()
+        let navigationController = UINavigationController(rootViewController: mainViewController)
+        navigationController.isNavigationBarHidden = true
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
+        return true
+    }
+
+// MainViewController.swift
 import UIKit
 
 class MainViewController: UIViewController,
