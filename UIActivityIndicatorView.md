@@ -94,30 +94,6 @@ class MainViewController: UIViewController,UIImagePickerControllerDelegate,UINav
 
         // Do any additional setup after loading the view.
     }
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        self.verifyInformation()
-    }
-    func verifyInformation() {
-        alertController = UIAlertController(title: "Verification", message: "Enter email or password", preferredStyle: .alert)
-        alertController?.addTextField(configurationHandler: { (textField) in
-            textField.placeholder = "Enter email"
-            textField.keyboardType = .emailAddress
-        })
-        alertController?.addTextField(configurationHandler: { (textField) in
-            textField.placeholder = "Enter password"
-            textField.isSecureTextEntry = true //password like "****"
-        })
-        let okAction = UIAlertAction(title: "OK", style: .default) { (alert) in
-            let textFieldEmail = self.alertController!.textFields![0] as UITextField
-            let textFieldPassword = self.alertController!.textFields![1] as UITextField
-            if (textFieldEmail.text != "sunlight4d@gmail.com" || textFieldPassword.text != "123456") {
-                self.verifyInformation()
-            }
-        }
-        alertController?.addAction(okAction)
-        self.present(alertController!, animated: true, completion: nil)
-        
-    }
+
 }
 ```
