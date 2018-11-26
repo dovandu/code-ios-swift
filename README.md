@@ -22,6 +22,18 @@ https://github.com/dovandu/code-ios-swift/blob/master/swift4_basic.md
 - Equal Centering: đảm bảo center của mỗi subview sẽ có khoảng cách bằng nhau.
 
 spacing: Chia đều các view con 1 khoảng
+
+let stackView = UIStackView() //Horizontal axis by default
+//Widths will be stretched to fill, usually one view takes up the majority of the space
+stackView.distribution = .fill 
+//Widths are stretched to fill with the same width
+stackView.distribution = .fillEqually
+//Widths are stretched to the same size to fill based off of their intrinsic content size, but they scale to keep the same proportions. Think resizing things in Sketch with the lock on.
+stackView.distribution = .fillProportionally
+//Padding is used to fill out the space horizontally, but generally the views stay the same size
+stackView.distribution = .equalSpacing
+//Attempts to keep the horizontal centers of each view to remain equally spaced
+stackView.distribution = .equalCentering
 ```
 
 ## 2.Core Graphics Tutorial : https://viblo.asia/p/core-graphics-tutorial-part-1-djeZ1gJ85Wz
