@@ -58,3 +58,17 @@ stackView.distribution = .equalCentering
 
 ## 3 Pass Data Between View Controllers In Swift (Extended)
 https://learnappmaking.com/pass-data-between-view-controllers-swift-how-to/
+
+## 4: Image onClick
+
+```swift
+let preArrowImage : UIImageView // also give it frame
+let singleTap = UITapGestureRecognizer(target: self, action: Selector("tapDetected"))
+preArrowImage.isUserInteractionEnabled = true
+preArrowImage.addGestureRecognizer(singleTap)
+
+//Action
+@objc func tapDetected() {
+    print("Imageview Clicked")
+}
+```
