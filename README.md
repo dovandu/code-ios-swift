@@ -72,3 +72,7 @@ preArrowImage.addGestureRecognizer(singleTap)
     print("Imageview Clicked")
 }
 ```
+
+## 5: Viewpage and tablayout
+
+https://github.com/xmartlabs/XLPagerTabStrip?fbclid=IwAR1FN-wwD9vjM-KWHA8QgG1Io5GzCdJewA6NXmtR2qSXIq7GPlguLfL3EZ0
