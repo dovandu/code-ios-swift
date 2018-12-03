@@ -83,4 +83,4 @@ https://github.com/instamobile/drawer-menu-swift/tree/master/DrawerMenuExample/D
 
 ## 6: pager - tab:
 
-https://github.com/PageMenu/PageMenu
+https://github.com/Friend-LGA/LGSideMenuController
