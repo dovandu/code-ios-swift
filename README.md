@@ -84,4 +84,5 @@ https://github.com/Friend-LGA/LGSideMenuController
 
 ## 6: pager - tab:
 
+https://github.com/EzimetYusup/WormTabStrip
 
