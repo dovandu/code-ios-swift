@@ -80,7 +80,8 @@ https://github.com/xmartlabs/XLPagerTabStrip?fbclid=IwAR1FN-wwD9vjM-KWHA8QgG1Io5
 ## 6: drawer menu 
 
 https://github.com/instamobile/drawer-menu-swift/tree/master/DrawerMenuExample/DrawerMenuExample
+https://github.com/Friend-LGA/LGSideMenuController
 
 ## 6: pager - tab:
 
-https://github.com/Friend-LGA/LGSideMenuController
+
